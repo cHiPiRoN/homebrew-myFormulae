@@ -27,7 +27,7 @@ class Myslepc < Formula
   
     option "with-blopex", "Download blopex library"
   
-    depends_on "chipiron/brew/Mypetsc"
+    depends_on "chipiron/myFormulae/Mypetsc"
     depends_on "open-mpi"
     depends_on "gcc"
     depends_on "hdf5-mpi"

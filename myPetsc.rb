@@ -38,7 +38,7 @@ class Mypetsc < Formula
     depends_on "metis"
     depends_on "open-mpi"
     depends_on "scalapack"
-    depends_on "chipiron/brew/Myparmetis"
+    depends_on "chipiron/myFormulae/Myparmetis"
     # depends_on "netcdf"
     # depends_on "superlu"
     depends_on "suite-sparse"
