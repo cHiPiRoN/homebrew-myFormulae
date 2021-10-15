@@ -1,4 +1,4 @@
-class MyParmetis < Formula
+class Myparmetis < Formula
     desc "MPI-based library for graph/mesh partitioning and computing fill-reducing orderings"
     homepage "http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview"
     url "http://glaros.dtc.umn.edu/gkhome/fetch/sw/parmetis/parmetis-4.0.3.tar.gz"
@@ -40,6 +40,6 @@ class MyParmetis < Formula
   
     test do
       system "mpirun", "-np", "4", "#{bin}/ptest", "#{pkgshare}/Graphs/rotor.graph"
-      ohai "Test results are in ~/Library/Logs/Homebrew/MyParmetis."
+      ohai "Test results are in ~/Library/Logs/Homebrew/Myparmetis."
     end
   end   
