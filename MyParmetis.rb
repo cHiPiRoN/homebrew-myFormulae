@@ -40,6 +40,6 @@ class MyParmetis < Formula
   
     test do
       system "mpirun", "-np", "4", "#{bin}/ptest", "#{pkgshare}/Graphs/rotor.graph"
-      ohai "Test results are in ~/Library/Logs/Homebrew/parmetis."
+      ohai "Test results are in ~/Library/Logs/Homebrew/MyParmetis."
     end
   end   
