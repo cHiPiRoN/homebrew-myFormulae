@@ -1,4 +1,4 @@
-class myParmetis < Formula
+class MyParmetis < Formula
     desc "MPI-based library for graph/mesh partitioning and computing fill-reducing orderings"
     homepage "http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview"
     url "http://glaros.dtc.umn.edu/gkhome/fetch/sw/parmetis/parmetis-4.0.3.tar.gz"
