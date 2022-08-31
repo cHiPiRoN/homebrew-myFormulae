@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook.html
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Myslepc < Formula
+class Slepc < Formula
     desc ""
     homepage ""
     # url "http://slepc.upv.es/download/distrib/slepc-3.10.2.tar.gz"
@@ -27,7 +27,7 @@ class Myslepc < Formula
   
     option "with-blopex", "Download blopex library"
   
-    depends_on "chipiron/myFormulae/Mypetsc"
+    depends_on "chipiron/myFormulae/Petsc"
     depends_on "open-mpi"
     depends_on "gcc"
     depends_on "hdf5-mpi"

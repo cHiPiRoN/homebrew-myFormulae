@@ -1,4 +1,4 @@
-class Mypetsc < Formula
+class Petsc < Formula
     desc ""
     homepage "https://www.mcs.anl.gov/petsc/"
     # url "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.8.3.tar.gz"
@@ -38,7 +38,7 @@ class Mypetsc < Formula
     depends_on "metis"
     depends_on "open-mpi"
     depends_on "scalapack"
-    depends_on "chipiron/myFormulae/Myparmetis"
+    depends_on "chipiron/myFormulae/Parmetis"
     # depends_on "netcdf"
     # depends_on "superlu"
     depends_on "suite-sparse"

@@ -1,4 +1,4 @@
-class Myparmetis < Formula
+class Parmetis < Formula
   desc "MPI-based library for graph/mesh partitioning and computing fill-reducing orderings"
   homepage "https://launchpad.net/ubuntu/+source/parmetis/4.0.3-4"
   url "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/parmetis/4.0.3-4/parmetis_4.0.3.orig.tar.gz"
