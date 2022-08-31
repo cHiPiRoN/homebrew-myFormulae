@@ -29,7 +29,8 @@ class Superludist < Formula
       cmake_args << "-DCMAKE_C_FLAGS=-fPIC -O2"
       cmake_args << "-DBUILD_SHARED_LIBS=ON"
       cmake_args << "-DCMAKE_C_COMPILER=#{ENV["MPICC"]}"
-      cmake_args << "-DCMAKE_Fortran_COMPILER=#{ENV["MPIF90"]}"
+    #   cmake_args << "-DCMAKE_Fortran_COMPILER=#{ENV["MPIF90"]}"
+      cmake_args << "-DCMAKE_C_COMPILER=gfortran"
       cmake_args << "-DCMAKE_INSTALL_PREFIX=#{prefix}"
   
       blaslib = ((build.with? "openblas") ? "-L#{Formula["openblas"].opt_lib} -lopenblas" : "-L#{Formula["veclibfort"].opt_lib} -lvecLibFort")
