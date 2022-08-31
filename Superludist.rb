@@ -1,4 +1,4 @@
-class SuperluDist < Formula
+class Superlucist < Formula
     desc "Distributed LU factorization for large linear systems"
     homepage "http://crd-legacy.lbl.gov/~xiaoye/SuperLU/"
     url "http://crd-legacy.lbl.gov/~xiaoye/SuperLU/superlu_dist_5.1.0.tar.gz"
